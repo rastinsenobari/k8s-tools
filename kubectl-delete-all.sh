@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$#" -ne 1 ] || [ "$1" == "--help" ]; then 
-        echo "      delet all object in kubernetes"
+        echo "      delet all elements from an object in kubernetes"
 	echo "      Try:  ./kubectl-delete-all.sh [object] -> pod, service, etc..."
 	exit
 fi
